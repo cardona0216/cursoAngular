@@ -1,0 +1,9 @@
+<h1>Contador: {{contador}}</h1>
+
+<button (click)="incrementar()">incrementar +</button>
+<button (click)="decrementar()">Decrementar -</button>
+
+
+<!-- este es un componente hijo -->
+<app-hijo [recibeHijo]="mensajePadre"/>
+
